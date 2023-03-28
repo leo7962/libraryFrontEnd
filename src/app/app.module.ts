@@ -14,6 +14,8 @@ import {MaterialModule} from "./material.module";
 import {RegisterComponent} from './security/register/register.component';
 import {LoginComponent} from './security/login/login.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
+import { BarComponent } from './navigation/bar/bar.component';
+import { MenuListComponent } from './navigation/menu-list/menu-list.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     BookComponent,
     HomeComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    BarComponent,
+    MenuListComponent
   ],
   imports: [
     BrowserModule,
